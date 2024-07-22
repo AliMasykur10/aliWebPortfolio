@@ -1,14 +1,11 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import Home from "./pages/home";
+
 import "./index.css";
-import Navbar from "./organisms/navbar/navbar";
+import MainPage from "./pages/main_page/mainPage";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <div className="container px-20 mx-auto">
-      <Navbar />
-      <Home />
-    </div>
+    <MainPage />
   </React.StrictMode>
 );

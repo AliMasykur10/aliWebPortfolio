@@ -13,5 +13,5 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  height: 1500px;
+  min-height: 100vh;
 }
