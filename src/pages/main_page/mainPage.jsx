@@ -1,4 +1,5 @@
 import Navbar from "../../molecules/navbar/navbar";
+import About from "../../organisms/about/about";
 import Home from "../../organisms/home/home";
 
 function MainPage() {
@@ -6,6 +7,7 @@ function MainPage() {
     <div className="container px-20 mx-auto">
       <Navbar />
       <Home />
+      <About />
     </div>
   );
 }
