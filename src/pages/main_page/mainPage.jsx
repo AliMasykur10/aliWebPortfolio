@@ -1,6 +1,8 @@
 import Navbar from "../../molecules/navbar/navbar";
 import About from "../../organisms/about/about";
+import Experience from "../../organisms/experience/Experience";
 import Home from "../../organisms/home/home";
+import Projects from "../../organisms/projects/projects";
 
 function MainPage() {
   return (
@@ -8,6 +10,8 @@ function MainPage() {
       <Navbar />
       <Home />
       <About />
+      <Experience />
+      <Projects />
     </div>
   );
 }
