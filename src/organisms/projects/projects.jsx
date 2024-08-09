@@ -1,7 +1,7 @@
 function Projects() {
   return (
     <>
-      <div className="experience w-full h-dvh flex justify-center flex-col">
+      <div className="w-full h-dvh flex justify-center flex-col" id="portfolio">
         <div className="title_project">
           <h1 className="text-4xl">Let’s have a look at</h1>
           <h1 className="bg-gradient-to-r from-biru_tosca to-green_first bg-clip-text text-transparent inline-block font-bold text-8xl">My Portofolio</h1>

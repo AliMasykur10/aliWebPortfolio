@@ -3,7 +3,7 @@ import arrow_rigt_top from "../../assets/Arrow_Up_Right.png";
 function Experience() {
   return (
     <>
-      <div className="experience w-full h-dvh flex items-center">
+      <div className="experience w-full h-dvh flex items-center" id="experience">
         <div className="expereince_container grid grid-cols-2 h-min">
           <div className="text_work">
             <h1 className="bg-gradient-to-r from-biru_tosca to-green_first bg-clip-text text-transparent inline-block font-bold text-8xl">Work Experience</h1>

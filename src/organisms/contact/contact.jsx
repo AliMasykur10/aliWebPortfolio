@@ -1,7 +1,7 @@
 function Contact() {
   return (
     <>
-      <div className="contact w-full h-dvh flex flex-col justify-center items-center gap-6">
+      <div className="contact w-full h-dvh flex flex-col justify-center items-center gap-6" id="contact">
         <h1 className="text-6xl">Lets Design Together</h1>
         <p className="text-lg">I'd love to hear from you! Whether you have a project in mind or just want to say hello, feel free to reach out.</p>
         <div className="contact-bar grid grid-cols-4 gap-2 w-3/4 mt-24">

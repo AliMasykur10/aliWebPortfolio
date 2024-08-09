@@ -1,7 +1,9 @@
+import myProfile from "../../assets/myprofile.jpg";
+
 function About() {
   return (
     <>
-      <div className="about w-full h-dvh flex items-center">
+      <div className="about w-full h-dvh flex items-center" id="about">
         <div className="grid grid-cols-2 h-min">
           <div className="about_me flex flex-col gap-6 pr-14">
             <h1 className="bg-gradient-to-r from-biru_tosca to-green_first bg-clip-text text-transparent inline-block font-bold text-8xl">About Me</h1>
@@ -9,7 +11,9 @@ function About() {
               Hi! I'm Ali Masykur, a freelance web developer based in Probolinggo. I have over 5 years of experience in web development, working with a variety of clients from startups to established businesses.
             </p>
             <p className="text-xl w-2/3">My expertise includes front-end and back-end development, ensuring a seamless and efficient user experience.</p>
-            <div className="profile bg-white w-32 h-32 rounded-full "></div>
+            <div className="profile">
+              <img src={myProfile} alt="" className="object-cover w-32 h-32 rounded-full" />
+            </div>
           </div>
           <div className="skills flex flex-col gap-6">
             <h1 className="bg-gradient-to-r from-biru_tosca to-green_first bg-clip-text text-transparent inline-block font-bold text-8xl">Skills</h1>

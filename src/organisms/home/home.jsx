@@ -6,7 +6,7 @@ import arrow_down from "../../assets/Arrow_Down.png";
 function Home() {
   return (
     <>
-      <div className="w-full h-dvh relative">
+      <div className="w-full h-dvh relative" id="freelance">
         <div className="vector1 absolute right-0 top-20">
           <img src={vector1} alt="vector 1" />
         </div>
