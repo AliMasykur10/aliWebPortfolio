@@ -32,8 +32,8 @@ function Projects() {
           </div>
           <div className="project_item grid grid-cols-2 ">
             <div className="project_item_name">
-              <p className="mb-5">Portfolio 1</p>
-              <h1 className="text-4xl">E-Commerce Website</h1>
+              <p className="mb-5">Portfolio 2</p>
+              <h1 className="text-4xl">Portfolio Website</h1>
               <div className="list_tech_stack flex gap-1 mt-4 p-4">
                 <div className="tech_item bg-biru_tosca text-center rounded-full px-2 py-1">
                   <p className="text-sm text-black">HTML</p>
@@ -55,8 +55,8 @@ function Projects() {
           </div>
           <div className="project_item grid grid-cols-2 ">
             <div className="project_item_name">
-              <p className="mb-5">Portfolio 1</p>
-              <h1 className="text-4xl">E-Commerce Website</h1>
+              <p className="mb-5">Portfolio 3</p>
+              <h1 className="text-4xl">Movie Website</h1>
               <div className="list_tech_stack flex gap-1 mt-4 p-4">
                 <div className="tech_item bg-biru_tosca text-center rounded-full px-2 py-1">
                   <p className="text-sm text-black">HTML</p>
