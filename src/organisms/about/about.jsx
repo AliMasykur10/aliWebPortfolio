@@ -42,6 +42,9 @@ function About() {
               <div className="tailwind bg-biru_tosca text-main_color px-8 rounded-full">
                 <p>tailwind</p>
               </div>
+              <div className="tailwind bg-biru_tosca text-main_color px-8 rounded-full">
+                <p>Github</p>
+              </div>
             </div>
           </div>
         </div>

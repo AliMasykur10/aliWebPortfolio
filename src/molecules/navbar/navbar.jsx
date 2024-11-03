@@ -1,8 +1,9 @@
 function Navbar() {
+ 
   return (
     <>
-      <div className="w-full flex justify-center ">
-        <div className="max-w-xl bg-green_first rounded-full p-1 fixed top-10 z-10">
+      <div className="w-full flex justify-center">
+        <div className="max-w-xl bg-green_first rounded-full p-2 fixed top-10 z-10">
           <ul className="text-main_color flex justify-around">
             <li className="text-center">
               <a href="#freelance" className="hover:bg-green_second transition delay-75 px-6 py-1 rounded-full">

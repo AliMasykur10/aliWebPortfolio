@@ -8,8 +8,8 @@ function Contact() {
           <div className="input col-span-3">
             <input type="text" placeholder="Enter Your Email" className="p-4 rounded-md w-full text-black" />
           </div>
-          <div className="button ">
-            <input type="submit" value="Contact Me" className="w-full h-full text-center bg-gradient-to-r from-biru_tosca to-green_first rounded-md text-black text-lg font-bold" />
+          <div className="button">
+            <input type="submit" value="Contact Me" className="w-full h-full text-center bg-gradient-to-r from-biru_tosca to-green_first rounded-md text-black text-lg font-bold cursor-pointer"/>
           </div>
         </div>
       </div>

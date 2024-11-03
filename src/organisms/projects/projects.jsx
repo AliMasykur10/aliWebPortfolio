@@ -1,4 +1,15 @@
 function Projects() {
+  let nama = [
+    {
+      judul: "Web Portfolio",
+    },
+    {
+      judul: "E-Commerce Webiste",
+    },
+    {
+      judul: "Movie Website",
+    },
+  ];
   return (
     <>
       <div className="w-full h-dvh flex justify-center flex-col" id="portfolio">
@@ -7,7 +18,8 @@ function Projects() {
           <h1 className="bg-gradient-to-r from-biru_tosca to-green_first bg-clip-text text-transparent inline-block font-bold text-8xl">My Portofolio</h1>
         </div>
         <div className="project_list grid grid-cols-2 gap-y-10 gap-x-10 mt-28">
-          <div className="project_item grid grid-cols-2 ">
+          
+          <div className="project_item grid grid-cols-2 cursor-pointer ">
             <div className="project_item_name">
               <p className="mb-5">Portfolio 1</p>
               <h1 className="text-4xl">E-Commerce Website</h1>
@@ -30,7 +42,7 @@ function Projects() {
               <div className="image w-full h-full rounded-md bg-white "></div>
             </div>
           </div>
-          <div className="project_item grid grid-cols-2 ">
+          <div className="project_item grid grid-cols-2 cursor-pointer">
             <div className="project_item_name">
               <p className="mb-5">Portfolio 2</p>
               <h1 className="text-4xl">Portfolio Website</h1>
@@ -53,7 +65,7 @@ function Projects() {
               <div className="image w-full h-full rounded-md bg-white "></div>
             </div>
           </div>
-          <div className="project_item grid grid-cols-2 ">
+          <div className="project_item grid grid-cols-2 cursor-pointer">
             <div className="project_item_name">
               <p className="mb-5">Portfolio 3</p>
               <h1 className="text-4xl">Movie Website</h1>

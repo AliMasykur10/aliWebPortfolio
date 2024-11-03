@@ -46,13 +46,19 @@ function Home() {
             </div>
             <div className="contact_item flex gap-16">
               <div className="email underline underline-offset-8">
-                <p>e-mail</p>
+                <a href="">
+                  <p>e-mail</p>
+                </a>
               </div>
               <div className="instagram underline underline-offset-8">
-                <p>instagram</p>
+                <a href="">
+                  <p>instagram</p>
+                </a>
               </div>
               <div className="github underline underline-offset-8">
-                <p>github</p>
+                <a href="">
+                  <p>github</p>
+                </a>
               </div>
             </div>
           </div>
